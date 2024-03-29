@@ -6,3 +6,23 @@ ALTERACOES REALIZADAS NO DIAGRAMA DE CLASSE:
         *OBS: É interessante ter um campo de código para não depender exclusivamente do ID??
 
     2. Foi inserido o método: editarPolicial()
+
+    3. Foi alterado o ImagemPolicial para 'ImgPolicial'
+
+--> PSICÓLOGO
+
+
+--> IMAGEM:
+    1. Foi alterado o Id_imagem para 'idImagem'
+
+    2. Foi alterado o ImagemPolicial para 'ImgPolicial'
+
+    3. Métodos incluirImagemPolicial e excluirImagemPolicial foram alterados para 'incluirImgPolicial' e 'excluirImgPolicial'
+
+--> FERRAMENTA
+
+--> BANCO DE DADOS
+
+--> ANALISE
+
+--> RESULTADO
