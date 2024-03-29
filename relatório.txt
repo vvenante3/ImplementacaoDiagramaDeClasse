@@ -1,0 +1,8 @@
+ALTERACOES REALIZADAS NO DIAGRAMA DE CLASSE:
+
+--> POLICIAL:
+    1. Foram deletados o 'Nome' e 'Matricula' -> Pois a pesquisa será retratada de forma anônima, e apenas o ID
+    poderá representar o indivíduo.
+        *OBS: É interessante ter um campo de código para não depender exclusivamente do ID??
+
+    2. Foi inserido o método: editarPolicial()
