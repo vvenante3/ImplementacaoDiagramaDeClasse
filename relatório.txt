@@ -16,12 +16,16 @@ ALTERACOES REALIZADAS NO DIAGRAMA DE CLASSE:
     2. Alterado o ImagemPolicial para 'ImgPolicial'
     3. Métodos incluirImagemPolicial e excluirImagemPolicial foram alterados para 'incluirImgPolicial' e 'excluirImgPolicial'
 
---> FERRAMENTA
+--> FERRAMENTA *NECESSITARÁ DE UMA ATENÇÃO MAIOR*
     1. Alterado ID_Ferramenta para 'idFerramenta'
 
 --> BANCO DE DADOS
+    * Não foram realizadas alteracoes*
 
---> ANALISE
+--> ANALISE *NECESSITARÁ DE UMA ATENÇÃO MAIOR*
+    1. Id_Analise alterada para 'idAnalise'
 
---> RESULTADO
+--> RESULTADO *NECESSITARÁ DE UMA ATENÇÃO MAIOR*
     1. Criação da ligação entre PSICOLOGO e RESULTADO
+    2. Id_resultado alterado para 'idResultado'
+    3. Id_resultadoImagem alterado para 'idResultadoImagem'

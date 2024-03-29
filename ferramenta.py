@@ -1,4 +1,7 @@
 from policial import Policial
+# VAI FAZER LIGACAO COM O BANCO DE DADOS TBM
+
+
 class Ferramenta:
     idFerramenta                = ' '           #PRECISARIA DISSO MESMO?
     DataRealizada               = ' '           ##2º ETAPA (relacionar com o /Policial.py)

@@ -1,7 +1,7 @@
 from policial import Policial
 class Imagem:
-    idImg               = ' '                                   ##2º ETAPA (relacionar com o /Policial.py)
-    imgPolicial         = ' '                                   ##2º ETAPA (relacionar com o /Policial.py)
+    idImg               = ' '                                   ##2º ETAPA (relacionar com o /policial.py)
+    imgPolicial         = ' '                                   ##2º ETAPA (relacionar com o /policial.py)
 
 def incluirImgPolicial():                                       ##2º Definir Parâmetros
     # DESCREVER MÉTODO
