@@ -1,9 +1,9 @@
 class Policial:
-    idPolicial      = '01'                                                  ##2º ETAPA (incluir id do Db)
-    dataCadastro    = '29/03/2024'                                          ##2º ETAPA (incluir data do sistema)
+    idPolicial      = '01'                                                  #(incluir id do Db)
+    dataCadastro    = '29/03/2024'                                          ##2º ETAPA (incluir data do sistema) [  ]
     DataNascimento  = '10/07/2002'
     sexo            = 'M'
-    ImgPolicial     = ' ' #arquivo da imagem do indivíduo                   ##2º ETAPA (buscar nos arq. a imagem que representa o indivíduo)
+    ImgPolicial     = ' ' #arquivo da imagem do indivíduo                   #imagem que representa o indivíduo)
 def cadastrarPolicial(idPolicial, dataCadastro, DataNascimento, sexo):
     # DESCREVER MÉTODO
 
