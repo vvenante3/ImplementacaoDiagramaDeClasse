@@ -9,6 +9,7 @@ ALTERACOES REALIZADAS NO DIAGRAMA DE CLASSE:
         *OBS: É interessante ter um campo de código para não depender exclusivamente do ID??
     2. Inserido o método: editarPolicial()
     3. Alterado o ImagemPolicial para 'ImgPolicial'
+        3.1 Excluído função 'ImgPolicial'
 
 --> PSICÓLOGO
     1. Criação da ligação entre PSICOLOGO e RESULTADO
