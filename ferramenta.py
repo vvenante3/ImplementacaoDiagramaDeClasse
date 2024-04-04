@@ -1,12 +1,12 @@
 from policial import Policial
-# VAI FAZER LIGACAO COM O BANCO DE DADOS TBM
-
+#FERRAMENTA PROPRIAMENTE DITA QUE FARÁ O TRABALHO DE RECONHECIMENTO DAS EXPRESSÕES FACIAIS
 
 class Ferramenta:
-    idFerramenta                = ' '           #PRECISARIA DISSO MESMO?
-    DataRealizada               = ' '           ##2º ETAPA (relacionar com o /Policial.py)
-    ImgDeteccaoFace             = ' '           ##2º ETAPA Verificar a existencia da face
-    ImgDeteccao                 = ' '           #EXPRESSOES
+    def __init__(self, idFerramenta, dataRealizada, ImgDeteccaoFace, ImgDeteccao):
+        self.idFerramenta       = idFerramenta
+        self.dataRealizada      = dataRealizada
+        self.ImgDeteccaoFace    = ImgDeteccaoFace   #existencia de resto
+        self.ImgDeteccao        = ImgDeteccao       #expressão facial
 
 def reconhecerFace():                           ##2º Desenvolver Ferramenta
     # DESCREVER MÉTODO
