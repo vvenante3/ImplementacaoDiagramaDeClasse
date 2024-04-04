@@ -7,13 +7,14 @@ ALTERACOES REALIZADAS NO DIAGRAMA DE CLASSE:
     1. Foram deletados o 'Nome' e 'Matricula' -> Pois a pesquisa será retratada de forma anônima, e apenas o ID
     poderá representar o indivíduo.
         *OBS: É interessante ter um campo de código para não depender exclusivamente do ID??
-    2. Inserido o método: editarPolicial()
+    2. Inserido o função: editarPolicial()
     3. Alterado o ImagemPolicial para 'ImgPolicial'
         3.1 Excluído função 'ImgPolicial'
 
 --> PSICÓLOGO
     1. Criação da ligação entre PSICOLOGO e RESULTADO
-    2. Deletado Método analisar()
+    2. Deletado função analisar()
+    3. Criação das funções 'cadastrarPsicologo', 'editarPsicologo' e 'excluirPsicologo'
 
 --> IMAGEM:
     1. Alterado o Id_imagem para 'idImagem'

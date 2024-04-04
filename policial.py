@@ -1,10 +1,10 @@
 class Policial:
     def __init__(self, idPolicial, dataCadastro, DataNascimento, sexo, ImgPolicial):
-        self.idPolicial = idPolicial                                                     ##2º ETAPA (incluir id do Db)
-        self.dataCadastro = dataCadastro
+        self.idPolicial     = idPolicial                                                     ##2º ETAPA (incluir id do Db)
+        self.dataCadastro   = dataCadastro
         self.DataNascimento = ' ' ##2º ETAPA (incluir data do sistema)
-        self.sexo = ' '
-        self.ImgPolicial = ' ' #arquivo da imagem do indivíduo
+        self.sexo           = ' '
+        self.ImgPolicial    = ' ' #arquivo da imagem do indivíduo
 
 def cadastrarPolicial(idPolicial, dataCadastro, DataNascimento, sexo, ImgPolicial):
     Policial(idPolicial, dataCadastro, DataNascimento, sexo, ImgPolicial)
