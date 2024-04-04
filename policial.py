@@ -13,13 +13,13 @@ def cadastrarPolicial(idPolicial, dataCadastro, DataNascimento, sexo, ImgPolicia
 
 def editarPolicial(self, idPolicial=None, dataCadastro=None, sexo='none', ImgPolicial=None):
     if idPolicial is not None:
-        self.idPolicial = idPolicial
+        self.idPolicial     = idPolicial
     if dataCadastro is not None:
-        self.dataCadastro = dataCadastro
+        self.dataCadastro   = dataCadastro
     if sexo is not None:
-        self.sexo = sexo
+        self.sexo           = sexo
     if ImgPolicial is not None:
-        self.ImgPolicial = ImgPolicial
+        self.ImgPolicial    = ImgPolicial
 
 def excluirPolicial(lista_policiais, idPolicial):
     for i, policial in enumerate(lista_policiais):  # O enumerate(função) atribui um índice e saiba as posições de cada item
