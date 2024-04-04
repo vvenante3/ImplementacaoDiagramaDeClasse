@@ -8,8 +8,8 @@ class Ferramenta:
         self.ImgDeteccaoFace    = ImgDeteccaoFace   #existencia de resto
         self.ImgDeteccao        = ImgDeteccao       #expressão facial
 
-def reconhecerFace():                           ##2º Desenvolver Ferramenta
-    # DESCREVER MÉTODO
+def reconhecerFace():                           ##FUNÇÕES DA FERRAMENTA PROPRIAMENTE DITA
+    # DESCREVER FUNÇÃO
 
-def detectarExpressoes():                       ##2º Desenvolver Ferramenta
-    # DESCREVER MÉTODO
+def detectarExpressoes():                       ##FUNÇÕES FERRAMENTA PROPRIAMENTE DITA
+    # DESCREVER FUNÇÃO
