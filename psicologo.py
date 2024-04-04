@@ -28,7 +28,7 @@ def excluirPsicologo(lista_psicologo, idPosicologo):
         print(f"Psicologo com ID {idPosicologo} não encontrado")
 
 def entrevistar():                              ##2ºETAPA: RELACIONAR COM O POLICIAL
-    # DESCREVER MÉTODO
+    # DESCREVER FUNÇÃO
 
 def diagnosticar():                             ##2ºETAPA: RELACIONAR COM O RESULTADO
-    # DESCREVER MÉTODO
+    # DESCREVER FUNÇÃO

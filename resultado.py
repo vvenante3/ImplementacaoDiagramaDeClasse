@@ -4,5 +4,5 @@ class Resultado:
     idResultado             = ' '
     idResultadoImagem       = ' '
 
-def definirResultadoFace():
-    # DESCREVER MÉTODO
+def definirResultadoFace():                 ##FUNÇÕES DA FERRAMENTA PROPRIAMENTE DITA
+    # DESCREVER FUNÇÃO

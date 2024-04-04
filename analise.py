@@ -1,10 +1,14 @@
 from imagem import Imagem
 from ferramenta import Ferramenta
+
 class Analise:
-    idAnalise           = ' '
-    ImgPolicial         = ' '               ##2º ETAPA (relacionar com o /policial.py)
-    ImgDeteccao         = ' '               ##2º ETAPA (relacionar com o /ferramenta.py)
+    def __init__(self, idAnalise, ImgPolicial, ImgDeteccao):
+        self.idAnalise      = idAnalise
+        self.ImgPolicial    = ImgPolicial
+        self.ImgDeteccao    = ImgDeteccao
 
-def inicializarDeteccap():                  ##2º Estará envolvida com a 'Ferramenta'
+def inicializarDeteccao():                  ##FUNÇÕES DA FERRAMENTA PROPRIAMENTE DITA
+    # DESCREVER FUNÇÃO
 
-def processarImg():                         ##2º Estará envolvida com a 'Ferramenta'
+def processarImg():                         ##FUNÇÕES DA FERRAMENTA PROPRIAMENTE DITA
+    # DESCREVER FUNÇÃO
