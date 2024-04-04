@@ -1,8 +1,8 @@
 from analise import Analise
 
 class Resultado:
-    idResultado             = ' '
-    idResultadoImagem       = ' '
+    def __init__(self, idResultado, idResultadoImagem):
+        self.idResultado         = idResultado
+        self.idResultadoImagem   = idResultadoImagem 
 
 def definirResultadoFace():                 ##FUNÇÕES DA FERRAMENTA PROPRIAMENTE DITA
-    # DESCREVER FUNÇÃO
